@@ -21,7 +21,7 @@ const Part = (props) => {
 
 const Total = (props) => {
   console.log(props)
-  
+
   let total = 0;
   total += props.parts[0].exercises;
   total += props.parts[1].exercises;
@@ -40,7 +40,8 @@ const App = () => {
       },
       {
         name: 'Using props to pass data',
-        exercises: 7},
+        exercises: 7
+      },
       {
         name: 'State of a component',
         exercises: 14
